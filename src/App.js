@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather  defaultCity = "Pretoria" />
         <footer>
           This project was coded by Nadia Russell-Brett and is{" "}
           <a href="https://github.com/NadiaRBT/weatherproject" target="_blank">
