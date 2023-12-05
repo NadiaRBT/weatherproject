@@ -1,7 +1,7 @@
 import React from "react";
 import "./weather.css";
 
-export default function Weather(){
+export default function Weather() {
   return (
     <div className="Weather">
       <form>
@@ -11,10 +11,15 @@ export default function Weather(){
               type="search"
               placeholder="Enter your City..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="submit" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="submit"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -25,10 +30,14 @@ export default function Weather(){
       </ul>
       <div className="row">
         <div className="col-6">
-          <img src="" />
-          32 °C
+          <img
+            src="//cdn.weatherapi.com/weather/64x64/day/116.png"
+            alt="sunny day"
+          />
+          <span className="temperature">32</span>
+          <span className="unit">°C</span>
         </div>
-        <div>
+        <div className="col-6">
           <ul>
             <li> Precipitation 0%</li>
             <li> Humidity 15%</li>
