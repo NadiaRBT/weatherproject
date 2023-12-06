@@ -1,13 +1,13 @@
-body{
-   background-image: url(./61772.png);
-   background-size: 100%;
+body {
+  background-image: url(./61772.png);
+  background-size: 100%;
 }
 .Weather {
   font-family: Arial, Helvetica, sans-serif;
   border: 3px solid #ff9500;
   border-radius: 5px;
   padding: 20px;
-  background-color: rgb(0,0,0, 0.3);
+  background-color: rgb(0, 0, 0, 0.3);
 }
 
 .btn-primary {
