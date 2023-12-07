@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/NadiaRBT/weatherproject"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://my-world-weather.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel= "noopener noreferrer"
           >
             hosted on Netlify
           </a>
