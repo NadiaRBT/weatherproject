@@ -8,21 +8,23 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin: -10px;
-  background-color: rgb(0, 0, 0, 0.5);
+ background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
 }
-
+.btn-primary value{
+  color:#343a40;
+}
 .btn-primary {
-  background-color: #e74d11;
-  border: 1px solid #e74d11;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
 }
 
 .btn-primary:hover {
-  background-color: #e9af1e;
-  border: 1px solid #e9af1e;
+  background-color: #495057;
+  border: 1px solid #495057;
 }
 
 .Weather h1 {
-  color: #e72c0d;
+  color: #f8f9fa;
   font-size: 40px;
   font-weight: 100;
   margin: 20px 0 0 0;
@@ -33,7 +35,7 @@ body {
   padding: 0;
 }
 .Weather li {
-  color: #f87113;
+  color: #f8f9fa;
   font-size: 18px;
   font-weight: 100;
   line-height: 30px;
@@ -48,19 +50,18 @@ body {
 
 .WeatherTemperature {
   font-weight: bold;
-  color: #ffae03;
+  color: #f8f9fa;
   font-size: 64px;
   font-weight: 400;
   margin-top: -90px;
   margin-left: 83px;
-  
 }
-.WeatherTemperature .units{
+.WeatherTemperature .units {
   font-size: 15px;
   top: -34px;
   position: relative;
-  color: #f87113;
+  color: #f8f9fa;
 }
-a{
-  color: #dc2f02;
+a {
+  color: #e9ecef;
 }
