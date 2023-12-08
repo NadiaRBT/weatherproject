@@ -18,9 +18,9 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://my-world-weather.netlify.app/"
+            href="https://the-world-weather-app.netlify.app/"
             target="_blank"
-            rel= "noopener noreferrer"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>
